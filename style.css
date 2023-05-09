@@ -282,3 +282,69 @@ form select {
     right: 143px;
     top: 3296px;
 }
+
+/* FOOTER */
+
+.gras {
+    font-weight: 700;
+    color: black;
+}
+
+.terms p {
+    color: rgba(147, 147, 147, 1);
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 85px;
+    margin-right: 131px;
+}
+
+footer {
+    background-color: rgba(241, 248, 255, 1);
+    margin: 98px 102px 57px 103px;
+}
+
+.quatre-colonnes {
+    display: flex;
+    padding-top: 84px;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.logo {
+    height: 38px;
+    width: 100px;
+}
+
+.reseaux img {
+    height: 40.49px;
+    width: 40.49px;
+}
+
+.reseaux {
+    display: flex;
+    gap: 11.41px;
+    margin-top: 50.25px;
+}
+
+.titre-colonne {
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 22px;
+}
+
+.contact-social p {
+    margin-top: 50px;
+}
