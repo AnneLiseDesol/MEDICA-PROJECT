@@ -1,0 +1,284 @@
+nav { /* Ensemble de la navigation */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 5rem;
+}
+
+.blue-txt { /* Texte coloré en bleu */
+    color: rgb(43, 136, 217);
+}
+
+.opacity { /* Réglage de l'opacité du mot \\Emargency */
+    color: rgb(152, 148, 148);
+    opacity: 0.2;
+}
+
+body { /* Ensemble de la page sur fond blanc et avec cette police */
+    font-family: 'PT Sans', sans-serif;
+    background-color: #FFFFFF;
+}
+
+a { /* Retrait du soulignage des liens et changement de la couleur des liens */
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+}
+
+.logo img { /* Réglage de la taille du logo */
+    height: 25px;
+    width: 95px;
+    margin-left: 0.5rem;
+}
+
+.menu { /* Réglage de l'espace entre les éléments du menu central */
+    display: flex;
+    gap: 50px;
+}
+
+.connexion { /* Réglage de l'espace entre les éléments du menu droit */
+    display: flex;
+    gap: 10px;
+}
+
+.bouton-signup { /* Réglage du bouton Sign Up */
+    border: 1px solid rgb(43, 136, 217);
+    background-color: rgb(43, 136, 217);
+    color: white;
+    padding: 10px 20px;  
+}
+
+.connexion a { /* Centrage des liens Login et Sign Up */
+    padding: 10px 20px;
+}
+
+.section-une img { /* Réglage de la taille de l'image */
+    height: 780px ;
+    width: 60%;
+    padding-right: 5rem;
+}
+
+.section-une article { /* Centrage des 2 éléments image et titre au sein de l'article */
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.section-une .titre {
+    height: 700px;
+    width: 40%;
+    font-size: 50px;
+    text-align: center;
+    margin-left: 5rem;
+    padding-top: 5rem;
+}
+
+div h2 {
+    padding-top: 5rem;
+}
+
+form { /* Agencement du formulaire en ligne */
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.encadre-form {
+    border: solid 1px transparent;
+    background-color: transparent;
+    position: absolute;
+    bottom: 36;
+    margin-left: 11rem;
+    width: 1385px;
+    padding-left: 3rem;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: -2px -2px 9px 2px rgba(176, 176, 176, 0.42)
+}
+
+.search-button {
+    margin-left: 1rem;
+    padding : 0.5rem 3rem;
+    background-color: rgb(43, 136, 217);
+    border: rgb(43, 136, 217);
+    color: white;
+}
+
+.encadre-form h3 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 0.5rem;
+    color: rgb(32, 32, 32);
+}
+
+select#hospital {
+    color: rgb(32, 32, 32);
+    border-radius: 0%;
+    border: solid 1px rgb(32, 32, 32);
+    border-right: 0px;
+    background-color: white;
+}
+
+select#depertment {
+    color: rgb(32, 32, 32);
+    border-radius: 0%;
+    border: solid 1px rgb(32, 32, 32);
+    border-right: 0px;
+    background-color: white;
+}
+
+select#doctor {
+    color: rgb(32, 32, 32);
+    border-radius: 0%;
+    border: solid 1px rgb(32, 32, 32);
+    border-right: 0px;
+    background-color: white;
+}
+
+select#date {
+    color: rgb(32, 32, 32);
+    border-radius: 0%;
+    border: solid 1px rgb(32, 32, 32);
+    border-right: 0px;
+    background-color: white;
+}
+
+select#time {
+    color: rgb(32, 32, 32);
+    border-radius: 0%;
+    border: solid 1px rgb(32, 32, 32);
+    background-color: white;
+}
+
+form select {
+    width: 15rem;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    height: 2rem;
+}
+
+.section-deux img {
+    height: 600px;
+    width: 450px;
+}
+
+.section-deux {
+    display: flex;
+    flex-direction: row;
+}
+
+.rsp {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.rsp img {
+    height: 280px;
+    width: 350px;
+}
+
+.rsp h2 {
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.rsp p {
+    margin-top: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(114, 113, 113);
+    font-size: 20px;
+}
+
+.section-deux img {
+    margin-left: 11rem;
+}
+
+.images-gauche {
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    gap: 5rem;
+    padding-top: 2rem;
+}
+
+.images-gauche img {
+    margin: 0;
+}
+
+.section-trois {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    padding-left: 0;
+}
+
+.section-trois img {
+    background-color: aqua;
+    width: 82%;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+}
+
+.article-gauche {
+    display: flex;
+    flex-direction: column;
+    margin-left: 11rem;
+}
+
+.article-gauche img {
+    position: relative;
+}
+
+.article-droit {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-droit img {
+    position: relative;
+}
+
+.section-quatre {
+    display: flex;
+    gap: 5rem;
+}
+
+.section-quatre img {
+    height: 500px;
+    width: 650px ;
+}
+
+.section-quatre h2 {
+    font-size: 50px;
+    color: rgb(114, 113, 113);
+}
+
+.section-quatre p {
+    font-size: 20px;
+    border: solid 1px transparent;
+    background-color: rgb(234, 239, 241);
+    opacity: 0.8;
+    padding: 1rem 3rem;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+.p-one {
+    padding-right: 10rem;
+    position: absolute;
+    top: 3004px;
+}
+
+.p-two {
+    position: absolute;
+    right: 143px;
+    top: 3296px;
+}
